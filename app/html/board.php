@@ -203,7 +203,7 @@ echo "<p class='err'>{$err_msg_comment}</p>";
 <!-- 投稿一覧 -->
 <section class="post-list">
 <?php if (count($post_list) === 0) : ?>
-<!-- 投稿が無いときはメッセージを表示する -->
+<!-- 投稿が無いときはメッセージを表示する  -->
 <p class="no-post-msg">現在、投稿はありません。</p>
 <?php else : ?>
 <ul>
